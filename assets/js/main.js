@@ -1,3 +1,16 @@
+/*==================== PRELOADER ====================*/
+var preloaderContainer = document.querySelector('.preloader_container');
+
+function preloadFunction() {
+    preloaderContainer.style.opacity = '0'
+    setTimeout(() => {
+        preloaderContainer.style.display = 'none'
+    }, 1000);
+}
+
+
+
+
 /*==================== SHOW MENU ====================*/
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),
