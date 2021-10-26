@@ -418,7 +418,7 @@ input{
         }
     }
     &__toggle{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         cursor: pointer;
     }
 
@@ -818,7 +818,7 @@ input{
     }
 }
 
-/*=============== PLACES ===============*/
+/*=============== PRODUCT ===============*/
 .place{
     &__card,
     &__img{
@@ -1001,6 +1001,16 @@ input{
     &__terms-link{
         font-size: var(--small-font-size);
         color: var(--text-color-light);
+        
+    }
+    &__copy{
+        a {
+            color: var(--text-color-light);
+            transition: all 0.2s;
+            &:hover {
+                color: var(--first-color);
+            }
+        }
     }
     &__terms{
         display: flex;
@@ -1024,7 +1034,6 @@ input{
     opacity: .9;
     z-index: var(--z-tooltip);
     transition: .4s;
-    border-radius: 50%;
     box-shadow: 0px 0px 4px #838383;
     
 
@@ -1078,6 +1087,9 @@ input{
             // transform: translate(-50%, -50%);
             // left: 0rem;
         }
+    }
+    .nav__logo img{
+        height: 1.6rem;
     }
 }
 
